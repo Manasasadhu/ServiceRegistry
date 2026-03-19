@@ -2,6 +2,9 @@
 
 A simple but functional service registry implementation for understanding service discovery in distributed systems.
 
+
+Demo Video - [https://drive.google.com/file/d/1nAxJ2F80rieIwdIgh3nBaTW-nRxPQzBW/view?usp=sharing](https://drive.google.com/file/d/1nAxJ2F80rieIwdIgh3nBaTW-nRxPQzBW/view?usp=sharing)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
