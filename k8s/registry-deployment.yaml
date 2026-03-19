@@ -4,6 +4,8 @@ metadata:
   name: service-registry
   labels:
     app: service-registry
+  annotations:
+    linkerd.io/inject: enabled
 spec:
   replicas: 1
   selector:

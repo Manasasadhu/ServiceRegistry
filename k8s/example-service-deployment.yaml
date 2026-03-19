@@ -4,6 +4,8 @@ metadata:
   name: user-service
   labels:
     app: user-service
+  annotations:
+    linkerd.io/inject: enabled
 spec:
   replicas: 2  # Run 2 instances for demonstration
   selector:
@@ -53,6 +55,8 @@ metadata:
   name: payment-service
   labels:
     app: payment-service
+  annotations:
+    linkerd.io/inject: enabled
 spec:
   replicas: 1
   selector:
